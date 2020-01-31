@@ -24,15 +24,15 @@
           <li><a href="" class="button">Гарантия</a></li>
           <li><a href="" class="button">Контакты</a></li>
           <li><button type="button"><img src="img/plus.svg" alt="+"></button></li>
-            <ul>
-
+        </ul>
+        <ul>
               <li><a href="#">Виртуальная реальность</a></li>
               <li><a href="catalog-item.html">Моноподы для селфи</a></li>
               <li><a href="#">Экшн-камеры</a></li>
               <li><a href="#">Фитнеc-браслеты</a></li>
               <li><a href="#">Умные часы</a></li>
               <li><a href="#">Квадрокоптеры</a></li>
-            </ul>
+
         </ul>
 
 
@@ -47,7 +47,32 @@
   </ul>
   <section class="filters">
     <h2 class="visually-hidden">Фильтр товаров</h2>
-    <!-- форма поиска -->
+    <form class="filter" method="get"
+    action="https://echo.htmlacademy.ru">
+      <fieldset>
+        <legend>Стоимость</legend>
+          <p class="price-option"><input type="range" min="0" max="15000" step="50"></p>
+      </fieldset>
+      <fieldset>
+        <legend>Цвет</legend>
+          <ul>
+            <li class="color-option"><input type="checkbox" name="black" checked>Черный</li>
+            <li class="color-option"><input type="checkbox" name="white" >Белый</li>
+            <li class="color-option"><input type="checkbox" name="blue" checked>Синий</li>
+            <li class="color-option"><input type="checkbox" name="red" checked>Красный</li>
+            <li class="color-option"><input type="checkbox" name="pink" >Розовый</li>
+          </ul>
+      </fieldset>
+
+      <fieldset>
+        <legend>Bluetooth</legend>
+          <ul>
+            <li class="Bluetooth-option"><input type="radio" name="bluetooth" value="have" checked>Есть</li>
+            <li class="Bluetooth-option"><input type="radio" name="bluetooth" value="no" >Нет</li>
+          </ul>
+      </fieldset>
+      <button type="submit">Показать</button>
+    </form>
   </section>
   <section class="catalog">
     <ul>

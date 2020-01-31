@@ -23,15 +23,15 @@
       <li><a href="" class="button">Гарантия</a></li>
       <li><a href="" class="button">Контакты</a></li>
       <li><button type="button"><img src="img/plus.svg" alt="+"></button></li>
-        <ul>
+    </ul>
+    <ul>
+        <li><a href="#">Виртуальная реальность</a></li>
+        <li><a href="catalog-item.html">Моноподы для селфи</a></li>
+        <li><a href="#">Экшн-камеры</a></li>
+        <li><a href="#">Фитнеc-браслеты</a></li>
+        <li><a href="#">Умные часы</a></li>
+        <li><a href="#">Квадрокоптеры</a></li>
 
-          <li><a href="#">Виртуальная реальность</a></li>
-          <li><a href="catalog-item.html">Моноподы для селфи</a></li>
-          <li><a href="#">Экшн-камеры</a></li>
-          <li><a href="#">Фитнеc-браслеты</a></li>
-          <li><a href="#">Умные часы</a></li>
-          <li><a href="#">Квадрокоптеры</a></li>
-        </ul>
     </ul>
 
 
@@ -175,9 +175,21 @@
   <section>
     <h2>Контакты</h2>.
     <p>Вы можете забрать товар сами, заехав в наш офис. Заодно, вы сможете проверить работоспособность покупки. Всякое бывает.</p>
-      <span><img src="img/map.png" alt="Карта"></span>
+      <span><img src="img/map.jpg"  alt="Карта"></span>
+      <span class="visually-hidden"><img src="img/map-big.jpg"  alt="Большая карта"></span>
 
-      <span class="yellow-line">Напишите нам</span>
+      <button type="button">Напишите нам</button>
+          <div class="write_us">
+            <h3 class="visually-hidden">Напишите нам</h3>
+            <form action="https://echo.htmlacademy.ru" method="post">
+              <button type="button" name="close"><img src="img/modal-close.svg" alt="close_write_us"></button>
+              <p><label>Ваше имя:<input type="text" name="fullName" placeholder="Имя Фамилия"></label></p>
+              <p><label>Ваш e-mail:<input type="text" name="email" placeholder="email@example.com"></label></p>
+              <p><label>Текст письма:<input type="text" name="text_letter" placeholder="В свободной форме"></label></p>
+              <button type="submit">Отправить</button>
+              </form>
+          </div>
+
   </section>
 </main>
 <footer>
