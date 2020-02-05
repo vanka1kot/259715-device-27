@@ -1,0 +1,25 @@
+@font-face {
+  font-family: 'opensanslight';
+  src:url('../fonts/opensanslight.woff2') format('woff2'),
+  src:url('../fonts/opensanslight.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family:'gilroyextrabold';
+  src: url('../fonts/gilroyextrabold.woff2') format('woff2'),
+  src: url('../fonts/gilroyextrabold.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+.button{
+  font-size: 30px;
+  font-family: 'opensanslight';
+ }
+
+h2{
+font-family: 'gilroyextrabold';
+color: red;
+}
