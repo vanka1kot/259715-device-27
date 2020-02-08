@@ -1,25 +1,262 @@
 @font-face {
   font-family: 'opensanslight';
   src:url('../fonts/opensanslight.woff2') format('woff2'),
-  src:url('../fonts/opensanslight.woff') format('woff');
+  url('../fonts/opensanslight.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
+
+@font-face {
+  font-family: 'opensansregular';
+  src:url('../fonts/opensans.woff2') format('woff2'),
+  url('../fonts/opensans.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
 @font-face {
   font-family:'gilroyextrabold';
   src: url('../fonts/gilroyextrabold.woff2') format('woff2'),
-  src: url('../fonts/gilroyextrabold.woff') format('woff');
+  url('../fonts/gilroyextrabold.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
 
+@font-face {
+  font-family:'girlgilroylight';
+  src: url('../fonts/gilroylight.woff2') format('woff2'),
+  url('../fonts/gilroylight.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
 
+.visually-hidden {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  …
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+input{
+  font-family: 'opensansregular';
+  font-size: 14px;
+  line-height: 18px;
+}
+
+li{
+  list-style: none;
+
+}
 .button{
-  font-size: 30px;
+  font-size: 15px;
   font-family: 'opensanslight';
+  line-height: 30px;
  }
 
-h2{
+.nav_butt{
+  text-transform: uppercase;
+}
+.page_title{
 font-family: 'gilroyextrabold';
-color: red;
+font-size: 47px;
+line-height: 56px;
+
+}
+
+.button_main{
+  font-size: 18px;
+  font-family: 'gilroyextrabold';
+  line-height: 30px;
+  background-color: #f7e296;
+}
+
+.main_item{
+padding-left: 230px;
+}
+
+.button_search , .breadcrumps_list{
+color: rgba(0, 0, 0, 0.3);
+}
+
+.description{
+font-family: 'opensanslight';
+font-size: 15px;
+line-height: 30px;
+}
+
+
+.table_content{
+font-family: 'girlgilroylight';
+font-size: 36px;
+line-height: 48px;
+}
+
+.items_table{
+margin-left: 140px;
+}
+
+.property{
+font-family: 'opensanslight';
+font-size: 13px;
+line-height: 20px;
+color: #464646;
+}
+
+.items , h3 {
+font-family: 'gilroyextrabold';
+font-size: 18px;
+line-height: 24px;
+letter-spacing: 0.18px;
+}
+
+.info{
+  font-size: 47px;
+  font-family: 'gilroyextrabold';
+  line-height: 48px;
+}
+
+.delivery{
+font-family: 'gilroyextrabold';
+font-size: 16px;
+line-height: 2.5;
+font-weight: 800;
+}
+
+.slider_services{
+border-right: 7px solid black;
+width: 220px;
+height: 219px;
+padding-top: 80px;
+margin-left: 140px;
+
+}
+
+.button_foot, .nav_menu{
+  font-size: 15px;
+  font-family: 'opensanslight';
+  line-height: 36px;
+ }
+
+.breadcrumps{
+  font-size: 14px;
+  font-family: 'opensanslight';
+  line-height: 24px;
+
+}
+
+.breadcrumps-current{
+  font-size: 14px;
+  font-family: 'opensanslight';
+  line-height: 24px;
+}
+
+.main-filt{
+text-transform: uppercase;
+font-family: 'gilroyextrabold';
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 3.2px;
+background-color: #d9d9d9;
+margin-bottom: 0;
+
+}
+
+fieldset{
+  font-size: 14px;
+  font-family: 'opensanslight';
+  line-height: 40px;
+ letter-spacing: 0.14px;
+
+}
+
+.price-option ,  .color-option , .bluetooth-option{
+  font-size: 14px;
+  font-family: 'opensanslight';
+  line-height: 40px;
+ letter-spacing: 0.14px;
+}
+
+.price{
+  font-family: 'girlgilroylight';
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.16px;
+}
+
+.navigation{
+background-color:  #f7e296;
+margin: 40px 140px 0px 140px;
+}
+
+.logo_device{
+margin-left: 199px;
+margin-top: 21px;.
+}
+
+.cards{
+background-color:  #f7e296;
+padding: 30px;
+}
+
+.services1{
+background-color: #e5e5e5;
+}
+.partner_logo{
+opacity: 0.2;
+}
+
+.footer{
+background-color: #464646;
+}
+
+.icon_dev{
+  width: 100px;
+   height: 100px;
+   fill: red;
+}
+
+.foot_text{
+  color: white;
+  font-family: 'gilroyextrabold';
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 3.6px;
+  text-transform: uppercase;
+  line-height: 1.33;
+}
+
+.foot_menu {
+color: rgba(255, 255, 255, 0.7);
+font-size: 15px;
+font-family: 'opensanslight';
+line-height: 36px;
+}
+
+.foot_contact{
+  color: white;
+}
+
+.foot_log{
+margin-left: 140px;
+}
+
+.input_form{
+  background-color: #f2f2f2;
+
+}
+
+.filt_part{
+background-color: #ebebeb;
+margin-top: 0;
+}
+
+.foot_menu_exit{
+color: rgba(255, 255, 255, 0.3);
 }
