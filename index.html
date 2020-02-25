@@ -75,6 +75,18 @@
       </tr>
   </table>
 </div>
+<h2 class="visually-hidden">Переключение товара</h2>
+<form class="filter" method="get"
+action="https://echo.htmlacademy.ru">
+<fieldset class="slider_butt">
+  <legend class="visually-hidden">Карточки товаров</legend>
+    <ul class="list_item">
+      <li class="item-option"><input type="radio" name="items" value="1" checked></li>
+      <li class="item-option"><input type="radio" name="items" value="2" ></li>
+      <li class="item-option"><input type="radio" name="items" value="3" ></li>
+    </ul>
+</fieldset>
+</form>
 </div>
 
 <div class="main_item visually-hidden">
@@ -116,18 +128,7 @@
 </div>
 
 
-<h2 class="visually-hidden">Переключение товара</h2>
-<form class="filter" method="get"
-action="https://echo.htmlacademy.ru">
-<fieldset class="slider_butt">
-  <legend class="visually-hidden">Карточки товаров</legend>
-    <ul class="list_item">
-      <li class="item-option"><input type="radio" name="items" value="1" checked></li>
-      <li class="item-option"><input type="radio" name="items" value="2" ></li>
-      <li class="item-option"><input type="radio" name="items" value="3" ></li>
-    </ul>
-</fieldset>
-</form>
+
 
 
 <div class="items items_table">
@@ -142,6 +143,7 @@ action="https://echo.htmlacademy.ru">
 </div>
 
 <div class="service_main">
+<div class="background_serv"></div>
 <div class="slider_services">
 <ul class="services">
     <li><button type="button" class="button_main button_services">Доставка</button></li>
@@ -173,8 +175,8 @@ action="https://echo.htmlacademy.ru">
 <img src="img/credit.svg" alt="trust">
 </div>
 </div>
-<div class="background_serv"></div>
-<div>
+
+<div class="partner_table">
 <ul class="parter__logo">
   <li><a href="" class="partner_logo_item"><img src="img/logo-1.jpg" alt="" ></a></li>
   <li><a href="" class="partner_logo_item"><img src="img/logo-3.jpg" alt="" ></a></li>
@@ -197,13 +199,13 @@ action="https://echo.htmlacademy.ru">
     <a href="#" class="button_site button_footer">Подробнее о нас</a>
   </div>
   <div class="contacts">
-    <h2 class="info black_line">Контакты</h2>.
+    <h2 class="info black_line">Контакты</h2>
     <p class="description2 description">Вы можете забрать товар сами, заехав в наш офис. Заодно, вы сможете<br> проверить работоспособность покупки. Всякое бывает.</p>
       <span><img src="img/map.jpg"  alt="Карта"></span>
       <a href="#" class="write_butt button_site button_footer">Напишите нам</a>
-      <span class="visually-hidden"><img src="img/map-big.jpg"  alt="Большая карта"></span>
+      <span ><img src="img/map-big.jpg"  alt="Большая карта" class="visually-hidden"></span>
     <div class="visually-hidden">
-          <div class="write_us">
+          <div class="write_us ">
             <h3 class="visually-hidden">Напишите нам</h3>
             <form action="https://echo.htmlacademy.ru" method="post">
               <button type="button" name="close"><img src="img/modal-close.svg" alt="close_write_us"></button>
@@ -245,10 +247,10 @@ action="https://echo.htmlacademy.ru">
     </ul>
   </div>
   <div  class="foot_menu1">
-    <ul class="footer_menu">
-      <li ><img src="img/user.svg" alt="иконка войти"  ><a href=""  class="foot_menu">Войти</a></li>
-      <li ><img src="img/compare.svg" alt="иконка сравнить" ><a href=""  class="foot_menu">Сравнить</a></li>
-      <li ><img src="img/cart.svg" alt="иконка корзины" ><a href=""  class="foot_menu">Корзина</a></li>
+    <ul class="foot_user ">
+      <li ><img src="img/user.svg" alt="иконка войти" class="img_foot"><a href=""  class="foot_menu">Войти</a></li>
+      <li ><img src="img/compare.svg" alt="иконка сравнить" class="img_foot"><a href=""  class="foot_menu">Сравнить</a></li>
+      <li ><img src="img/cart.svg" alt="иконка корзины" class="img_foot"><a href=""  class="foot_menu">Корзина</a></li>
     </ul>
     <a href="tel:+7.495.495.95.95" class="foot_tel foot_contact">Тел.: +7 (495) 495-95-95</a>
     <div class="academ_log">
@@ -259,8 +261,6 @@ action="https://echo.htmlacademy.ru">
     </a>
     </div>
   </div>
-
-
 </footer>
   </body>
 </html>
