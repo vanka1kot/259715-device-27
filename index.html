@@ -53,7 +53,7 @@
 
 </header>
 <main>
-
+<div class="cards_items">
 <div class="main_item">
   <img src="img/slider-1.png" alt="" class="img_item">
   <div class="main_info">
@@ -76,7 +76,55 @@
   </table>
 </div>
 <h2 class="visually-hidden">Переключение товара</h2>
-<form class="filter" method="get"
+</div>
+
+<div class="main_item  visually-hidden">
+  <img src="img/slider-2.png" alt="" class="img_item">
+  <div class="main_info">
+  <h2 class="page_title">Худеем<br>правильно!</h2>
+  <p class="description">Мотивирующие фитнес-браслеты помогут найти в себе силы<br>
+не пропускать занятия и соблюдать диету.
+  </p>
+  <a href="#" class="button_site button_site_main">Подробнее</a>
+  <table>
+    <tr class="table_content">
+      <th>48 часов</th>
+        </tr>
+      <tr class="property">
+        <td>Без подзарядки</td>
+        </tr>
+  </table>
+</div>
+<h2 class="visually-hidden">Переключение товара</h2>
+</div>
+
+<div class="main_item visually-hidden">
+  <div class="img_item3">
+  <img src="img/slider-3.png" alt="" >
+</div>
+  <div class="main_info3">
+  <h2 class="page_title">Порхает как бабочка,<br>жалит как пчела!</h2>
+  <p class="description">Этот обычный, на первый взгляд, квадрокоптер оснащен<br>
+мощным лазером, замаскированным под стандартную камеру.
+  </p>
+  <a href="#" class="button_site button_site_main">Подробнее</a>
+  <table>
+    <tr class="table_content">
+      <th>800 м</th>
+      <th>50 м</th>
+    </tr>
+      <tr class="property">
+        <td>Дальность полета</td>
+        <td>Радиус поражения</td>
+      </tr>
+  </table>
+
+</div>
+<h2 class="visually-hidden">Переключение товара</h2>
+</div>
+
+<div class="filter">
+<form  method="get"
 action="https://echo.htmlacademy.ru">
 <fieldset class="slider_butt">
   <legend class="visually-hidden">Карточки товаров</legend>
@@ -88,47 +136,7 @@ action="https://echo.htmlacademy.ru">
 </fieldset>
 </form>
 </div>
-
-<div class="main_item visually-hidden">
-  <img src="img/slider-2.png" alt="">
-  <b>02</b>
-  <h2 class="page_title">Худеем правильно!</h2>
-  <p class="description">Мотивирующие фитнес-браслеты помогут найти в себе силы
-не пропускать занятия и соблюдать диету.
-  </p>
-<a href="#" class="button_main button_site">Подробнее</a>
-  <table>
-    <tr>
-      <th class="table_content">48 часов</th>
-    </tr>
-      <tr>
-        <td class="property">Без подзарядки</td>
-      </tr>
-  </table>
 </div>
-
-<div class="main_item visually-hidden">
-  <img src="img/slider-3.png" alt="">
-  <b>01</b>
-  <h2 class="page_title">Порхает как бабочка,жалит как пчела!</h2>
-  <p class="description">Этот обычный, на первый взгляд, квадрокоптер оснащен
-мощным лазером, замаскированным под стандартную камеру.
-  </p>
-  <a href="#" class="button_main">Подробнее</a>
-  <table>
-    <tr class="table_content">
-      <th>800 м</th>
-      <th>50 м</th>
-    </tr>
-      <tr class="property">
-        <td>Дальность полета</td>
-        <td>Радиус поражения</td>
-      </tr>
-  </table>
-</div>
-
-
-
 
 
 <div class="items items_table">
@@ -152,27 +160,30 @@ action="https://echo.htmlacademy.ru">
   </ul>
 </div>
 
-<div class="services1">
+<div class="services1 services_del ">
   <div class="delivery_inf">
   <h2 class="info_deli info">Доставка</h2>
   <p class="info_deli1 description">Мы с удовольствием доставим ваш товар прямо к вашему подъезду совершенно бесплатно!
      Ведь мы неплохо заработаем, поднимая его на ваш этаж.</p>
   </div>
-<img src="img/delivery.svg" alt="delivery1" class="img_deliv">
+
 </div>
 
-<div class="services1 visually-hidden">
-  <h2 class="info">Гарантия</h2>
-  <p class="description">Если из-за возгорания купленного у нас товара у вас сгорит дом — не переживайте, мы выдадим вам новый.
+<div class="services1 services_af visually-hidden">
+  <div class="delivery_inf">
+  <h2 class="info_deli info">Гарантия</h2>
+  <p class="info_deli1 description">Если из-за возгорания купленного у нас товара у вас сгорит дом — не переживайте, мы выдадим вам новый.
 Товар, не дом, конечно же.</p>
-<img src="img/warranty.svg" alt="repair">
+  </div>
 </div>
 
-<div class="services1 visually-hidden">
-  <h2 class="info">Кредит</h2>
-  <p class="description">Залезть в долговую яму стало проще! Кредитные консультанты подберут для вас наиболее выгодные
+<div class="services1 services_cred visually-hidden">
+  <div class="delivery_inf">
+  <h2 class="info_deli info">Кредит</h2>
+  <p class="info_deli1 description">Залезть в долговую яму стало проще! Кредитные консультанты подберут для вас наиболее выгодные
 условия кредита. Выгодные для нашего банка, разумеется.</p>
-<img src="img/credit.svg" alt="trust">
+  </div>
+
 </div>
 </div>
 
@@ -220,6 +231,7 @@ action="https://echo.htmlacademy.ru">
 </div>
 </main>
 <footer class="footer">
+  <div class=footer_menu>
   <div class="foot_log">
     <a href="#" class="foot_logo_main">
     <!--<img src="img/logo.png" width="163" height="35" alt="Девайс" class="device" > -->
@@ -261,6 +273,7 @@ action="https://echo.htmlacademy.ru">
     </a>
     </div>
   </div>
+</div>
 </footer>
   </body>
 </html>
