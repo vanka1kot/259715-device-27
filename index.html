@@ -51,10 +51,20 @@
 
 </header>
 <main>
+  <input type="radio" class="visually-hidden" name="items" id="product-1" checked >
+  <input type="radio" class="visually-hidden" name="items" id="product-2" >
+  <input type="radio" class="visually-hidden" name="items" id="product-3" >
+<div class="site-wrapper">
   <div class="cards_items">
-    <div class="main_item">
+    <div class="slider-controls">
+                <label for="product-1">Первый</label>
+                <label for="product-2">Второй</label>
+                <label for="product-3">Третий</label>
+              </div>
+
+    <div class="main_item slide" id="slide1">
       <img src="img/slider-1.png" alt="" class="img_item">
-      <div class="main_info">
+      <div class="main_info ">
         <h2 class="page_title">Делай селфи,<br>как Бен Стиллер!</h2>
         <p class="description">Самая длинная палка для селфи доступна в нашем магазине.<br>
         Восемь (Восемь, Карл!) метров длиной и весом всего 5 килограмм.
@@ -76,7 +86,7 @@
       <h2 class="visually-hidden">Переключение товара</h2>
     </div>
 
-    <div class="main_item  visually-hidden">
+    <div class="main_item slide" id="slide2">
       <img src="img/slider-2.png" alt="" class="img_item">
       <div class="main_info">
         <h2 class="page_title">Худеем<br>правильно!</h2>
@@ -96,7 +106,7 @@
       <h2 class="visually-hidden">Переключение товара</h2>
     </div>
 
-    <div class="main_item visually-hidden">
+    <div class="main_item slide" id="slide3">
       <div class="img_item3">
         <img src="img/slider-3.png" alt="" >
       </div>
@@ -107,11 +117,11 @@
         </p>
         <a href="#" class="button_site button_site_main">Подробнее</a>
         <table>
-          <tr class="table_content">
+          <tr class="table_content copter">
             <th>800 м</th>
             <th>50 м</th>
           </tr>
-          <tr class="property">
+          <tr class="property copt_opt">
             <td>Дальность полета</td>
             <td>Радиус поражения</td>
           </tr>
@@ -120,19 +130,8 @@
       </div>
       <h2 class="visually-hidden">Переключение товара</h2>
     </div>
+</div>
 
-    <div class="filter">
-      <form  method="get" action="https://echo.htmlacademy.ru">
-      <fieldset class="slider_butt">
-  <legend class="visually-hidden">Карточки товаров</legend>
-    <ul class="list_item">
-      <li class="item-option"><input type="radio" name="items" value="1" checked></li>
-      <li class="item-option"><input type="radio" name="items" value="2" ></li>
-      <li class="item-option"><input type="radio" name="items" value="3" ></li>
-    </ul>
-      </fieldset>
-      </form>
-    </div>
   </div>
 
   <div class="items items_table">
