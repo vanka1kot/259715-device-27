@@ -220,6 +220,11 @@ a{
   color: rgba(0, 0, 0, 0.3);
 }
 
+.button_filter{
+  outline: none;
+  border: none;
+}
+
 .main_item{
   display: flex;
   position: relative;
@@ -935,6 +940,7 @@ fieldset{outline: none;
   padding-bottom: 26px;
   align-self: flex-start;
   margin: 0px;
+  margin-left: 10px;
 
 }
 
@@ -1109,11 +1115,47 @@ fieldset{
   display: flex;
   flex-direction: row;
   list-style: none;
-  justify-content:  space-between;
+  justify-content:  space-around;
   align-items: center;
   width: 286px;
   padding-left:0;
 }
+
+.filet_tab button{
+  outline: none;
+  border: none;
+}
+
+.filter_u_d{
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  justify-content: space-around;
+  align-items: center;
+  width: 41px;
+  border: none;
+  margin-left: 180px;
+}
+
+.icon_down , .icon_up{
+  padding: 0;
+  border: none;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.icon_down{
+  opacity: 0.2;
+}
+
+.icon_down:focus , .icon_up:focus,
+.icon_down:active, .icon_ip:active{
+  border: 0px;
+  outline: none;
+}
+
 
 .filter_catalog{
   display: flex;
