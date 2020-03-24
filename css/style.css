@@ -1,31 +1,31 @@
 @font-face {
-  font-family: 'opensanslight';
-  src: url('../fonts/opensanslight.woff2') format('woff2'),
-    url('../fonts/opensanslight.woff') format('woff');
+  font-family: "opensanslight";
+  src: url("../fonts/opensanslight.woff2") format("woff2"),
+    url("../fonts/opensanslight.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'opensansregular';
-  src: url('../fonts/opensans.woff2') format('woff2'),
-    url('../fonts/opensans.woff') format('woff');
+  font-family: "opensansregular";
+  src: url("../fonts/opensans.woff2") format("woff2"),
+    url("../fonts/opensans.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'gilroyextrabold';
-  src: url('../fonts/gilroyextrabold.woff2') format('woff2'),
-    url('../fonts/gilroyextrabold.woff') format('woff');
+  font-family: "gilroyextrabold";
+  src: url("../fonts/gilroyextrabold.woff2") format("woff2"),
+    url("../fonts/gilroyextrabold.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'girlgilroylight';
-  src: url('../fonts/gilroylight.woff2') format('woff2'),
-    url('../fonts/gilroylight.woff') format('woff');
+  font-family: "girlgilroylight";
+  src: url("../fonts/gilroylight.woff2") format("woff2"),
+    url("../fonts/gilroylight.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
@@ -89,6 +89,7 @@ a {
 .nav_butt1 {
   width: 144px;
   margin-left: 60px;
+  display: flex;
 }
 
 .nav_butt2 {
@@ -163,7 +164,7 @@ a {
 
 .button {
   font-size: 15px;
-  font-family: 'opensanslight', Helvetica, Arial, sans-serif;
+  font-family: "opensanslight", Helvetica, Arial, sans-serif;
   line-height: 30px;
 }
 
@@ -183,13 +184,13 @@ a {
 
 .button_main {
   font-size: 18px;
-  font-family: 'gilroyextrabold', Helvetica, Arial, sans-serif;
+  font-family: "gilroyextrabold", Helvetica, Arial, sans-serif;
   line-height: 30px;
 }
 
 .button_site {
   font-size: 18px;
-  font-family: 'gilroyextrabold', Helvetica, Arial, sans-serif;
+  font-family: "gilroyextrabold", Helvetica, Arial, sans-serif;
   line-height: 30px;
   display: inline-block;
   width: 220px;
@@ -261,7 +262,7 @@ a {
 }
 
 .page_title {
-  font-family: 'gilroyextrabold', Helvetica, Arial, sans-serif;
+  font-family: "gilroyextrabold", Helvetica, Arial, sans-serif;
   font-size: 47px;
   margin-bottom: 20px;
   line-height: 1.19;
@@ -271,7 +272,7 @@ a {
 }
 
 .description {
-  font-family: 'opensanslight', Helvetica, Arial, sans-serif;
+  font-family: "opensanslight", Helvetica, Arial, sans-serif;
   font-size: 15px;
   font-weight: 300;
   line-height: 2;
@@ -317,14 +318,14 @@ a {
 }
 
 .property {
-  font-family: 'opensanslight', Helvetica, Arial, sans-serif;
+  font-family: "opensanslight", Helvetica, Arial, sans-serif;
   font-size: 13px;
   line-height: 20px;
   color: #464646;
 }
 
 .table_content {
-  font-family: 'girlgilroylight', Helvetica, Arial, sans-serif;
+  font-family: "girlgilroylight", Helvetica, Arial, sans-serif;
   font-size: 36px;
   line-height: 48px;
 }
@@ -337,7 +338,7 @@ a {
 }
 
 .items {
-  font-family: 'gilroyextrabold', Helvetica, Arial, sans-serif;
+  font-family: "gilroyextrabold", Helvetica, Arial, sans-serif;
   font-size: 18px;
   line-height: 24px;
   letter-spacing: 0.18px;
@@ -368,7 +369,9 @@ a {
   justify-content: space-between;
 }
 
-.link::before, .link1::before, .link2::before, .link3::before, .link4::before, .link5::before {
+.link::before, .link1::before,
+.link2::before, .link3::before,
+.link4::before, .link5::before {
   margin-bottom: 40px;
 }
 
@@ -480,7 +483,6 @@ a {
   background-color: #f7e296;
   display: block;
   height: auto;
-  left: 50%;
   top: 10%;
   position: relative;
   text-align: center;
@@ -580,19 +582,18 @@ a {
 
 .info {
   font-size: 47px;
-  font-family: 'gilroyextrabold', Helvetica, Arial, sans-serif;
+  font-family: "gilroyextrabold", Helvetica, Arial, sans-serif;
   line-height: 48px;
   line-height: 1.02;
   letter-spacing: 0.47px;
   margin-left: -122px;
   margin-right: auto;
-  width: 1160px;
   padding-left: 120px;
 }
 
 .main_catalog {
   font-size: 47px;
-  font-family: 'gilroyextrabold', Helvetica, Arial, sans-serif;
+  font-family: "gilroyextrabold", Helvetica, Arial, sans-serif;
   line-height: 48px;
   line-height: 1.02;
   letter-spacing: 0.47px;
@@ -601,7 +602,7 @@ a {
   width: 1160px;
   padding-left: 120px;
   margin-top: 36px;
-  margin-bottom: 23px;
+  margin-bottom: 27px;
 }
 
 .black_line::before {
@@ -621,7 +622,7 @@ a {
 }
 
 .delivery {
-  font-family: 'gilroyextrabold', Helvetica, Arial, sans-serif;
+  font-family: "gilroyextrabold", Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 2.5;
   font-weight: 800;
@@ -791,7 +792,7 @@ a {
 .foot_menu {
   color: rgba(255, 255, 255, 0.7);
   font-size: 15px;
-  font-family: 'opensanslight', Helvetica, Arial, sans-serif;
+  font-family: "opensanslight", Helvetica, Arial, sans-serif;
   line-height: 36px;
   margin-left: 14px;
 }
@@ -848,7 +849,7 @@ a {
   text-transform: uppercase;
   letter-spacing: 3.6px;
   font-size: 18px;
-  font-family: 'gilroyextrabold', Helvetica, Arial, sans-serif;
+  font-family: "gilroyextrabold", Helvetica, Arial, sans-serif;
   line-height: 30px;
 }
 
@@ -873,7 +874,7 @@ a {
   position: absolute;
   z-index: -1;
   border: none;
-  outline: 0 !important;
+  outline: 0;
 }
 
 .button_services:active::before {
@@ -885,7 +886,7 @@ a {
   top: -8%;
   position: absolute;
   z-index: -1;
-  outline: 0 !important;
+  outline: 0;
 }
 
 .button_services:active {
@@ -915,40 +916,56 @@ fieldset {
 
 .button_foot, .nav_menu {
   font-size: 15px;
-  font-family: 'opensanslight', Helvetica, Arial, sans-serif;
+  font-family: "opensanslight", Helvetica, Arial, sans-serif;
   line-height: 36px;
 }
 
 .breadcrumps {
+  display: flex;
+  list-style: none;
+  margin-bottom: 45px;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1160px;
   font-size: 14px;
-  font-family: 'opensanslight', Helvetica, Arial, sans-serif;
+  font-family: "opensanslight", Helvetica, Arial, sans-serif;
   line-height: 24px;
   padding-left: 120px;
 }
 
 .breadcrumps-current {
   font-size: 14px;
-  font-family: 'opensanslight', Helvetica, Arial, sans-serif;
+  font-family: "opensanslight", Helvetica, Arial, sans-serif;
   line-height: 24px;
 }
 
-.main-filt {
+.filter_sect {
+  background-color: #d9d9d9;
+  min-width: 328px;
+  margin-bottom: 0;
+  text-align: center;
+  margin: 0;
+}
+
+.main_filt {
   text-transform: uppercase;
-  font-family: 'gilroyextrabold', Helvetica, Arial, sans-serif;
+  font-family: "gilroyextrabold", Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 3.2px;
-  background-color: #d9d9d9;
   margin-bottom: 0;
-  min-width: 467px;
+  padding-top: 26px;
   text-align: center;
   margin: 0;
-  padding-top: 26px;
+  position: relative;
+  left: -60px;
 }
 
 .filt_sort {
   text-transform: uppercase;
-  font-family: 'gilroyextrabold', Helvetica, Arial, sans-serif;
+  font-family: "gilroyextrabold", Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 3.2px;
@@ -957,28 +974,31 @@ fieldset {
   min-width: 262px;
   text-align: center;
   padding-top: 26px;
-  padding-bottom: 26px;
   align-self: flex-start;
   margin: 0px;
-  margin-left: 10px;
+  margin-left: 12px;
 }
 
 fieldset {
   font-size: 14px;
-  font-family: 'opensanslight', Helvetica, Arial, sans-serif;
+  font-family: "opensanslight", Helvetica, Arial, sans-serif;
   line-height: 40px;
   letter-spacing: 0.14px;
 }
 
+.bluetooth-option {
+  position: relative;
+}
+
 .price-option, .color-option, .bluetooth-option {
   font-size: 14px;
-  font-family: 'opensanslight', Helvetica, Arial, sans-serif;
+  font-family: "opensanslight", Helvetica, Arial, sans-serif;
   line-height: 40px;
   letter-spacing: 0.14px;
 }
 
 .price {
-  font-family: 'girlgilroylight', Helvetica, Arial, sans-serif;
+  font-family: "girlgilroylight", Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.16px;
@@ -1025,6 +1045,16 @@ fieldset {
 
 .search_ic {
   margin-right: 20px;
+}
+
+.input_search {
+  outline: none;
+  background-color: inherit;
+  border: none;
+  font-family: "opensansregular", Helvetica, Arial, sans-serif;
+  color: black;
+  opacity: 0.3;
+  margin-top: 4px;
 }
 
 .in_ic {
@@ -1087,17 +1117,6 @@ fieldset {
   fill: red;
 }
 
-.breadcrumps {
-  display: flex;
-  list-style: none;
-  margin-bottom: 40px;
-  justify-content: flex-start;
-  flex-wrap: wrap;
-  margin-left: auto;
-  margin-right: auto;
-  width: 1160px;
-}
-
 .breadcrumps li {
   position: relative;
   margin-right: 39px;
@@ -1126,7 +1145,7 @@ fieldset {
   flex-direction: row;
   background-color: #ebebeb;
   min-height: 71px;
-  max-width: 1440px;
+  max-width: 1161px;
   margin: 0 auto;
 }
 
@@ -1146,7 +1165,7 @@ fieldset {
   align-items: center;
   width: 286px;
   padding-left: 0;
-  font-family: 'opensansregular', Helvetica, Arial, sans-serif;
+  font-family: "opensansregular", Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 1.29;
   text-align: left;
@@ -1170,7 +1189,11 @@ fieldset {
   align-items: center;
   width: 41px;
   border: none;
-  margin-left: 180px;
+  margin-left: 187px;
+}
+
+.icon_down {
+  margin-left: 21px;
 }
 
 .icon_down, .icon_up {
@@ -1182,7 +1205,7 @@ fieldset {
   cursor: pointer;
 }
 
-.icon_down {
+.icon_up {
   opacity: 0.2;
 }
 
@@ -1242,12 +1265,24 @@ fieldset {
   background-position: 0 0;
 }
 
+.blueth_yes {
+  position: relative;
+  right: 60px;
+  top: 6px;
+}
+
+.blueth_no {
+  right: 55px;
+  top: 6px;
+  position: relative;
+}
+
 .filter-input-radio+label::before {
   content: "";
   position: absolute;
   width: 25px;
   height: 25px;
-  left: 10px;
+  left: -10px;
   background-image: url("../img/radio-off.svg");
   background-repeat: no-repeat;
   background-position: 0 0;
@@ -1262,7 +1297,7 @@ fieldset {
   position: absolute;
   width: 25px;
   height: 25px;
-  left: 10px;
+  left: -10px;
   background-image: url("../img/radio-on.svg");
   background-repeat: no-repeat;
   background-position: 0 0;
@@ -1346,7 +1381,7 @@ fieldset {
 .price-controls label {
   display: inline-block;
   line-height: 1.71;
-  font-family: 'girlgilroylight', Helvetica, Arial, sans-serif;
+  font-family: "girlgilroylight", Helvetica, Arial, sans-serif;
   font-size: 14px;
   opacity: 0.2;
 }
@@ -1388,7 +1423,7 @@ fieldset {
 
 .filt_part fieldset {
   width: 201px;
-  background-image: url('../img/up_line_catalog.png');
+  background-image: url("../img/up_line_catalog.png");
   background-repeat: no-repeat;
   background-position: top;
 }
@@ -1423,6 +1458,21 @@ fieldset {
   justify-content: space-around;
 }
 
+.catalog_cards {
+  font-family: "gilroyextrabold";
+  font-size: 18px;
+  font-weight: 800;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: 0.18px;
+  width: 256px;
+}
+
+.proff_self {
+  width: 230px;
+}
+
 .catalog_item {
   position: relative;
 }
@@ -1450,7 +1500,7 @@ fieldset {
 
 .show_but {
   font-size: 18px;
-  font-family: 'gilroyextrabold', Helvetica, Arial, sans-serif;
+  font-family: "gilroyextrabold", Helvetica, Arial, sans-serif;
   line-height: 30px;
   display: inline-block;
   width: 220px;
@@ -1493,7 +1543,7 @@ fieldset {
 
 .in_cart {
   font-size: 18px;
-  font-family: 'gilroyextrabold', Helvetica, Arial, sans-serif;
+  font-family: "gilroyextrabold", Helvetica, Arial, sans-serif;
   line-height: 30px;
   display: inline-block;
   width: 220px;
@@ -1531,7 +1581,7 @@ fieldset {
 
 .compare_catal {
   opacity: 0.5;
-  font-family: 'opensanslight', Helvetica, Arial, sans-serif;
+  font-family: "opensanslight", Helvetica, Arial, sans-serif;
   font-size: 13px;
   font-weight: 300;
   font-stretch: normal;
@@ -1557,7 +1607,7 @@ fieldset {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  font-family: 'gilroyextrabold', Helvetica, Arial, sans-serif;
+  font-family: "gilroyextrabold", Helvetica, Arial, sans-serif;
   font-size: 18px;
   line-height: 24px;
   letter-spacing: 3.6px;
@@ -1595,7 +1645,7 @@ fieldset {
 
 .foot_text {
   color: white;
-  font-family: 'gilroyextrabold', Helvetica, Arial, sans-serif;
+  font-family: "gilroyextrabold", Helvetica, Arial, sans-serif;
   font-size: 18px;
   line-height: 24px;
   letter-spacing: 3.6px;
@@ -1627,19 +1677,23 @@ fieldset {
   margin-right: 14px;
 }
 
-.user_menu, .main_menu, .nav_menu, .list_item, .cards_list, .services, .parter__logo, .delivery, .foot_menu, .social_button {
+.user_menu, .main_menu,
+.nav_menu, .list_item,
+.cards_list, .services,
+.parter__logo, .delivery,
+.foot_menu, .social_button {
   list-style: none;
 }
 
 .visually-hidden {
-  position: absolute !important;
+  position: absolute;
   clip: rect(1px 1px 1px 1px);
   /* IE6, IE7 */
   clip: rect(1px, 1px, 1px, 1px);
-  padding: 0 !important;
-  border: 0 !important;
-  height: 1px !important;
-  width: 1px !important;
+  padding: 0;
+  border: 0;
+  height: 1px;
+  width: 1px;
   overflow: hidden;
 }
 

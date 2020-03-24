@@ -28,7 +28,11 @@
     </div>
     <nav>
       <ul class="user_menu">
-        <li class="nav_butt1_cat"><img src="img/search.svg" alt="Лупа для поиска" class="search_ic"><a href="" class="button button_search">Поиск по сайту</a></li>
+        <li class="nav_butt1"><img src="img/search.svg" alt="Лупа для поиска" class="search_ic">
+          <form action="https://echo.htmlacademy.ru" method="post">
+            <input type="text" name="fullName" placeholder="Поиск по сайту" class="input_search">
+          </form>
+        </li>
         <li class="nav_butt2_cat"><img src="img/user.svg" alt="иконка войти" class="in_ic"><a href="" class="button">Валентин Петухов</a></li>
         <li class="nav_butt2.2_cat"><a href="" class="button nav_cat">Выйти</a></li>
         <li class="nav_butt3_cat"><img src="img/compare.svg" alt="иконка сравнить" class="compare_ic"><a href="" class="button">Сравнить</a></li>
@@ -68,7 +72,9 @@
 
 
     <div class="filter_opt">
-      <p class="main-filt">Фильтр:</p>
+      <div class="filter_sect">
+        <p class="main_filt">Фильтр:</p>
+      </div>
       <p class="filt_sort">Сортировка:</p>
       <form class="" method="get" action="https://echo.htmlacademy.ru">
         <fieldset class="filter_opt">
@@ -82,8 +88,8 @@
       <form class="" method="get" action="https://echo.htmlacademy.ru">
         <fieldset>
           <ul class="filter_u_d">
-            <li><a href="#" class="icon_down"><img src="img/icon-down-dir.svg" alt=""></a></li>
             <li><a href="#" class="icon_up"><img src="img/icon-up-dir.svg" alt=""></a></li>
+            <li><a href="#" class="icon_down"><img src="img/icon-down-dir.svg" alt=""></a></li>
           </ul>
         </fieldset>
       </form>
@@ -137,10 +143,10 @@
             <legend class="items bluetooth_opt">Bluetooth</legend>
             <ul>
               <li class="bluetooth-option"><input type="radio" class="filter-input-radio visually-hidden" name="bluetooth" value="have" checked id="bluet_yes">Есть
-                <label for="bluet_yes"></label>
+                <label for="bluet_yes" class="blueth_yes"></label>
               </li>
               <li class="bluetooth-option"><input type="radio" class="filter-input-radio visually-hidden" name="bluetooth" value="no" id="bluet_no">Нет
-                <label for="bluet_no"></label>
+                <label for="bluet_no" class="blueth_no"></label>
               </li>
             </ul>
           </fieldset>
@@ -158,8 +164,8 @@
               </div>
             </div>
             <div class="catalog_items">
-              <a href="" class="button">
-                <h3>Любительская селфи-палка</h3>
+              <a href="" class="catalog_cards button">
+                <p>Любительская селфи-палка</p>
               </a>
               <p class="price">500 руб</p>
             </div>
@@ -173,8 +179,8 @@
               </div>
             </div>
             <div class="catalog_items">
-              <a href="" class="button">
-                <h3>Профессиональная селфи-палка </h3>
+              <a href="" class="proff_self button catalog_cards">
+                <p>Профессиональная селфи-палка </p>
               </a>
               <p class="price">1500 руб</p>
             </div>
@@ -188,8 +194,8 @@
               </div>
             </div>
             <div class="catalog_items">
-              <a href="" class="button">
-                <h3>Непотопляемая селфи-палка</h3>
+              <a href="" class="button catalog_cards">
+                <p>Непотопляемая селфи-палка</p>
               </a>
               <p class="price">2500 руб</p>
             </div>
@@ -203,8 +209,8 @@
               </div>
             </div>
             <div class="catalog_items">
-              <a href="" class="button">
-                <h3>Селфи-палка «Следуй за мной»</h3>
+              <a href="" class="button catalog_cards">
+                <p>Селфи-палка «Следуй за мной»</p>
               </a>
               <p class="price">4900 руб</p>
             </div>
