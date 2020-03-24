@@ -588,6 +588,7 @@ margin-bottom: 40px;
   margin-left: auto;
   margin-right: auto;
   width: 1160px;
+  padding-left: 120px;
 }
 
 .black_line::before{
@@ -903,6 +904,7 @@ fieldset{outline: none;
   font-size: 14px;
   font-family: 'opensanslight';
   line-height: 24px;
+    padding-left: 120px;
 }
 
 .breadcrumps-current{
@@ -1109,7 +1111,11 @@ fieldset{
   flex-direction: row;
   background-color: #ebebeb;
   min-height: 71px;
+  max-width: 1440px;
+  margin: 0 auto;
 }
+
+
 
 .filet_tab{
   display: flex;
@@ -1163,8 +1169,9 @@ fieldset{
   align-items: center;
   flex-direction: column;
   background-color: #ebebeb;
-  width: 467px;
+  width: 328px;
   min-height: 1287px;
+
 }
 
 .color-option label{
@@ -1216,15 +1223,20 @@ fieldset{
   background-position: 0 0;
 }
 
+
+
 .filter-input-radio + label::before{
   content: "";
   position: absolute;
   width: 25px;
   height: 25px;
-  left: 136px;
+  left: 10px;
+
+
   background-image: url("../img/radio-off.svg");
   background-repeat: no-repeat;
   background-position: 0 0;
+
 }
 
 .filter-input-radio:checked + label::before{
@@ -1236,7 +1248,8 @@ fieldset{
   position: absolute;
   width: 25px;
   height: 25px;
-  left: 136px;
+  left: 10px;
+
   background-image: url("../img/radio-on.svg");
   background-repeat: no-repeat;
   background-position: 0 0;
@@ -1364,6 +1377,7 @@ fieldset{
 
 .bluet_sl{
   height: 180px;
+  position: relative;
 }
 
 .price_filt{
@@ -1387,7 +1401,8 @@ fieldset{
 
 .items_catalog{
   display: flex;
-
+  margin: 0 auto;
+  width: 1161px;
 }
 
 .catalog{
@@ -1410,6 +1425,117 @@ fieldset{
   width: 360px;
   justify-content: space-around;
 }
+
+.img_cat:focus, .img_cat:active{
+  content: "";
+  opacity: 0.5;
+  background-color: red;
+}
+
+
+.img_cat:hover{
+
+}
+
+.catalog_item{
+position: relative;
+}
+
+.hover_item{
+  display: flex;
+  flex-direction:  column;
+  position: absolute;
+  top: 184px;
+  left: 116px;
+  display: none;
+}
+
+.img123{
+  z-index: -1;
+}
+
+.img123:hover ~ .hover_item, .img123:focus ~ .hover_item, .img123:active ~ .hover_item{
+  display: flex;
+
+
+}
+
+
+
+.in_cart{
+  font-size: 18px;
+  font-family: 'gilroyextrabold';
+  line-height: 30px;
+  display: inline-block;
+  width: 220px;
+  height: 58px;
+  text-align: center;
+  position: relative;
+  text-transform: uppercase;
+  letter-spacing: 3.6px;
+  z-index: 1;
+  right: 40px;
+  margin-bottom: -24px;
+}
+
+.in_cart::before{
+  content: url("../img/yellow_line_catalog.png") ;
+  display: block;
+  width: 100%;
+  position: absolute;
+  top: -4%;
+  z-index: -1;
+}
+
+.in_cart:hover::before, .in_cart:focus::before{
+  content: url("../img/yellow_line_catalog_max.png") ;
+  display: block;
+  color: black;
+  width: 100%;
+  top: -8%;
+  position: absolute;
+  z-index: -1;
+}
+
+ .in_cart:active{
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.compare_catal{
+  opacity: 0.5;
+  font-family: 'opensanslight';
+  font-size: 13px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.77;
+  letter-spacing: 0.13px;
+}
+
+.compare_catal:focus , .compare_catal:hover{
+  opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .price{
   margin: 0px;
@@ -1453,6 +1579,7 @@ fieldset{
 
 .bread_list{
   width: 759px;
+
 }
 
 
@@ -1485,7 +1612,8 @@ fieldset{
 
 .filt_part{
 
-margin-top: 0;
+max-width: 1161px;
+
 }
 
 .foot_us{
